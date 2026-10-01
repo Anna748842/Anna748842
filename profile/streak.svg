@@ -1,0 +1,85 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+viewBox="0 0 900 190">
+
+<defs>
+    <linearGradient id="streak" x1="0" x2="1">
+        <stop offset="0%" stop-color="#f78166"/>
+        <stop offset="100%" stop-color="#ffb86c"/>
+    </linearGradient>
+</defs>
+
+<rect width="900" height="190"
+      rx="12"
+      fill="#0d1117"/>
+
+<rect x="1" y="1"
+      width="898"
+      height="188"
+      rx="12"
+      fill="none"
+      stroke="#30363d"/>
+
+<text x="450" y="35"
+      text-anchor="middle"
+      font-family="Segoe UI,Arial,sans-serif"
+      font-size="18"
+      font-weight="700"
+      fill="#f0f6fc">
+    GitHub Streak
+</text>
+
+<g font-family="Segoe UI,Arial,sans-serif"
+   text-anchor="middle">
+
+    <text x="220" y="85"
+          font-size="36"
+          font-weight="700"
+          fill="#f78166">
+        1
+    </text>
+
+    <text x="220" y="110"
+          font-size="12"
+          fill="#8b949e">
+        CURRENT STREAK
+    </text>
+
+    <line x1="450" y1="65"
+          x2="450" y2="135"
+          stroke="#30363d"/>
+
+    <text x="680" y="85"
+          font-size="36"
+          font-weight="700"
+          fill="#58a6ff">
+        2
+    </text>
+
+    <text x="680" y="110"
+          font-size="12"
+          fill="#8b949e">
+        LONGEST STREAK
+    </text>
+</g>
+
+<rect x="150"
+      y="145"
+      width="600"
+      height="3"
+      rx="2"
+      fill="#21262d"/>
+
+<rect x="150"
+      y="145"
+      width="110"
+      height="3"
+      rx="2"
+      fill="url(#streak)">
+    <animate
+        attributeName="width"
+        values="110;500;110"
+        dur="4s"
+        repeatCount="indefinite"/>
+</rect>
+
+</svg>
