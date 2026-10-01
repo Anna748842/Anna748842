@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 82">
+  <rect width="1200" height="82" rx="10" fill="#0d1117"/>
+  <rect x="1" y="1" width="1198" height="80" rx="10" fill="none" stroke="#30363d"/>
+  <g font-family="Inter,Segoe UI,Arial,sans-serif" font-weight="700">
+    <g transform="translate(28 18)">
+      <rect width="270" height="45" rx="9" fill="#0A66C2" opacity=".92"/>
+      <text x="25" y="29" font-size="15" fill="#fff">in</text>
+      <text x="62" y="29" font-size="14" fill="#fff">LinkedIn</text>
+      <animateTransform attributeName="transform" type="translate" values="28 18;28 14;28 18" dur="2.8s" repeatCount="indefinite"/>
+    </g>
+
+    <g transform="translate(340 18)">
+      <rect width="270" height="45" rx="9" fill="#161b22" stroke="#30363d"/>
+      <text x="23" y="29" font-size="15" fill="#f0f6fc">◎</text>
+      <text x="55" y="29" font-size="14" fill="#f0f6fc">GitHub / Anna748842</text>
+      <animateTransform attributeName="transform" type="translate" values="340 18;340 14;340 18" dur="3.3s" repeatCount="indefinite"/>
+    </g>
+
+    <g transform="translate(652 18)">
+      <rect width="270" height="45" rx="9" fill="#FFA116"/>
+      <text x="22" y="29" font-size="15" fill="#111">LC</text>
+      <text x="60" y="29" font-size="14" fill="#111">LeetCode</text>
+      <animateTransform attributeName="transform" type="translate" values="652 18;652 14;652 18" dur="3.8s" repeatCount="indefinite"/>
+    </g>
+
+    <g transform="translate(964 18)">
+      <rect width="208" height="45" rx="9" fill="#238636"/>
+      <text x="24" y="29" font-size="14" fill="#fff">🚀 Open to Build</text>
+      <animate attributeName="opacity" values=".55;1;.55" dur="2.2s" repeatCount="indefinite"/>
+    </g>
+  </g>
+</svg>

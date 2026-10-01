@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 220" role="img" aria-labelledby="t d">
+  <title id="t">Anand Kumar Das</title>
+  <desc id="d">Java, DSA, Full Stack and product builder</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1">
+      <stop offset="0" stop-color="#0d1117"/>
+      <stop offset=".52" stop-color="#101827"/>
+      <stop offset="1" stop-color="#0d1117"/>
+    </linearGradient>
+    <linearGradient id="glow" x1="0" x2="1">
+      <stop offset="0" stop-color="#58a6ff"/>
+      <stop offset=".5" stop-color="#79c0ff"/>
+      <stop offset="1" stop-color="#7ee787"/>
+    </linearGradient>
+    <filter id="soft">
+      <feGaussianBlur stdDeviation="7"/>
+    </filter>
+  </defs>
+
+  <rect width="1200" height="220" rx="14" fill="url(#bg)"/>
+  <rect x="1" y="1" width="1198" height="218" rx="14" fill="none" stroke="#30363d"/>
+
+  <!-- animated glow -->
+  <ellipse cx="600" cy="30" rx="430" ry="70" fill="#58a6ff" opacity=".10" filter="url(#soft)">
+    <animate attributeName="cx" values="420;780;420" dur="8s" repeatCount="indefinite"/>
+  </ellipse>
+
+  <!-- floating particles -->
+  <g fill="#58a6ff">
+    <circle cx="85" cy="45" r="2.5"><animate attributeName="cy" values="45;25;45" dur="3s" repeatCount="indefinite"/></circle>
+    <circle cx="160" cy="150" r="2"><animate attributeName="cy" values="150;130;150" dur="4s" repeatCount="indefinite"/></circle>
+    <circle cx="1040" cy="75" r="2.5"><animate attributeName="cy" values="75;50;75" dur="3.6s" repeatCount="indefinite"/></circle>
+    <circle cx="1110" cy="150" r="2"><animate attributeName="cy" values="150;125;150" dur="4.8s" repeatCount="indefinite"/></circle>
+  </g>
+
+  <!-- animated orbit -->
+  <g transform="translate(600 95)" fill="none" stroke="#58a6ff" opacity=".35">
+    <ellipse rx="350" ry="68">
+      <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="18s" repeatCount="indefinite"/>
+    </ellipse>
+    <ellipse rx="285" ry="52">
+      <animateTransform attributeName="transform" type="rotate" from="360" to="0" dur="13s" repeatCount="indefinite"/>
+    </ellipse>
+  </g>
+
+  <!-- main title -->
+  <text x="600" y="88" text-anchor="middle"
+        font-family="Inter,Segoe UI,Arial,sans-serif"
+        font-size="37" font-weight="700" fill="#f0f6fc" letter-spacing="2">
+    ANAND KUMAR DAS
+  </text>
+
+  <text x="600" y="124" text-anchor="middle"
+        font-family="JetBrains Mono,Consolas,monospace"
+        font-size="16" font-weight="600" fill="#58a6ff">
+    JAVA • DSA • FULL STACK • BUILDER
+  </text>
+
+  <!-- animated scan bar -->
+  <rect x="405" y="143" width="390" height="2" rx="1" fill="#21262d"/>
+  <rect x="405" y="143" width="75" height="2" rx="1" fill="url(#glow)">
+    <animate attributeName="x" values="405;720;405" dur="4s" repeatCount="indefinite"/>
+  </rect>
+
+  <text x="600" y="180" text-anchor="middle"
+        font-family="Inter,Segoe UI,Arial,sans-serif"
+        font-size="13" fill="#8b949e">
+    B.Tech CSE • BIT Sindri • India
+  </text>
+</svg>

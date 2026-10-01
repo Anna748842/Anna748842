@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 110">
+  <defs>
+    <linearGradient id="line" x1="0" x2="1">
+      <stop offset="0" stop-color="#58a6ff"/>
+      <stop offset=".5" stop-color="#bc8cff"/>
+      <stop offset="1" stop-color="#7ee787"/>
+    </linearGradient>
+    <filter id="blur"><feGaussianBlur stdDeviation="5"/></filter>
+  </defs>
+  <rect width="1200" height="110" rx="12" fill="#0d1117"/>
+  <rect x="90" y="56" width="1020" height="2" fill="#21262d"/>
+  <rect x="90" y="56" width="180" height="2" fill="url(#line)" filter="url(#blur)">
+    <animate attributeName="x" values="90;930;90" dur="6s" repeatCount="indefinite"/>
+  </rect>
+  <circle cx="600" cy="57" r="10" fill="none" stroke="#58a6ff" opacity=".8">
+    <animate attributeName="r" values="6;18;6" dur="2.4s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values=".9;.15;.9" dur="2.4s" repeatCount="indefinite"/>
+  </circle>
+  <text x="600" y="84" text-anchor="middle"
+        font-family="JetBrains Mono,Consolas,monospace"
+        font-size="13" fill="#8b949e">
+    Thanks for visiting • Keep building 🚀
+  </text>
+</svg>

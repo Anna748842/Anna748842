@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120">
+  <defs>
+    <linearGradient id="g" x1="0" x2="1">
+      <stop offset="0" stop-color="#58a6ff"/>
+      <stop offset=".5" stop-color="#bc8cff"/>
+      <stop offset="1" stop-color="#7ee787"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="120" rx="12" fill="#0d1117"/>
+  <g opacity=".35" fill="none" stroke="url(#g)">
+    <path d="M25 85 C175 10 270 105 410 40 S650 10 760 66 S1030 107 1175 25" stroke-width="2" stroke-dasharray="7 9">
+      <animate attributeName="stroke-dashoffset" values="0;-120" dur="5s" repeatCount="indefinite"/>
+    </path>
+  </g>
+
+  <g font-family="Inter,Segoe UI,Arial,sans-serif">
+    <text x="600" y="35" text-anchor="middle" font-size="15" fill="#8b949e">
+      CURRENTLY BUILDING
+    </text>
+
+    <text x="600" y="72" text-anchor="middle" font-size="25" font-weight="700" fill="#f0f6fc">
+      Smriti Setu • HUNAR SETU • MedEase
+    </text>
+
+    <text x="600" y="98" text-anchor="middle" font-size="13" fill="#58a6ff">
+      Projects • Hackathons • Learning • Open Source
+    </text>
+  </g>
+
+  <circle cx="120" cy="85" r="4" fill="#58a6ff">
+    <animate attributeName="r" values="3;8;3" dur="1.8s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="1080" cy="45" r="4" fill="#7ee787">
+    <animate attributeName="r" values="3;8;3" dur="2.3s" repeatCount="indefinite"/>
+  </circle>
+</svg>
