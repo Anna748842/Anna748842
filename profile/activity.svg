@@ -36,7 +36,7 @@ viewBox="0 0 1200 245">
       font-family="Segoe UI,Arial,sans-serif"
       font-size="12"
       fill="#8b949e">
-    20 contributions in the last year
+    33 contributions in the last year
 </text>
 
 
@@ -46,20 +46,11 @@ viewBox="0 0 1200 245">
       height="13"
       rx="2"
       fill="#161b22">
-    <title>2025-10-02: 0 contributions</title>
-</rect>
-
-<rect x="28"
-      y="94"
-      width="13"
-      height="13"
-      rx="2"
-      fill="#161b22">
     <title>2025-10-03: 0 contributions</title>
 </rect>
 
 <rect x="28"
-      y="110"
+      y="94"
       width="13"
       height="13"
       rx="2"
@@ -702,7 +693,7 @@ viewBox="0 0 1200 245">
       width="13"
       height="13"
       rx="2"
-      fill="#006d32">
+      fill="#39d353">
     <title>2025-12-14: 2 contributions</title>
 </rect>
 
@@ -3249,7 +3240,7 @@ viewBox="0 0 1200 245">
       width="13"
       height="13"
       rx="2"
-      fill="#006d32">
+      fill="#39d353">
     <title>2026-09-23: 2 contributions</title>
 </rect>
 
@@ -3276,7 +3267,7 @@ viewBox="0 0 1200 245">
       width="13"
       height="13"
       rx="2"
-      fill="#0e4429">
+      fill="#006d32">
     <title>2026-09-26: 1 contributions</title>
 </rect>
 
@@ -3322,7 +3313,16 @@ viewBox="0 0 1200 245">
       height="13"
       rx="2"
       fill="#39d353">
-    <title>2026-10-01: 7 contributions</title>
+    <title>2026-10-01: 20 contributions</title>
+</rect>
+
+<rect x="860"
+      y="158"
+      width="13"
+      height="13"
+      rx="2"
+      fill="#161b22">
+    <title>2026-10-02: 0 contributions</title>
 </rect>
 
 <rect x="28"
