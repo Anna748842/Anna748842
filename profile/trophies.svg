@@ -171,7 +171,7 @@ Created by potrace 1.15, written by Peter Selinger 2001-2017
   
           <text x="50%" y="18" text-anchor="middle" font-family="Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji" font-weight="bold" font-size="13" fill="#c9d1d9">Commits</text>
           <text x="50%" y="85" text-anchor="middle" font-family="Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji" font-weight="bold" font-size="10.5" fill="#8b949e">Middle Committer</text>
-          <text x="50%" y="97" text-anchor="middle" font-family="Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji" font-weight="bold" font-size="10" fill="#8b949e">46pt</text>
+          <text x="50%" y="97" text-anchor="middle" font-family="Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji" font-weight="bold" font-size="10" fill="#8b949e">48pt</text>
           
     <style>
     @keyframes CommitsRankAnimation {
@@ -179,7 +179,7 @@ Created by potrace 1.15, written by Peter Selinger 2001-2017
         width: 0px;
       }
       to {
-        width: 32px;
+        width: 33.77777777777778px;
       }
     }
     #Commits-rank-progress{
@@ -208,6 +208,86 @@ Created by potrace 1.15, written by Peter Selinger 2001-2017
         
         <svg
           x="250"
+          y="0"
+          width="115"
+          height="115"
+          viewBox="0 0 115 115"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <rect
+            x="0.5"
+            y="0.5"
+            rx="4.5"
+            width="114"
+            height="114"
+            stroke="#e1e4e8"
+            fill="#0d1117"
+            stroke-opacity="1"
+            fill-opacity="1"
+          />
+          
+  
+  
+  <defs>
+    <linearGradient id="B" gradientTransform="rotate(45)">
+    
+    <stop offset="0%" stop-color="#ff5555"/>
+    <stop offset="70%" stop-color="#ff5555"/>
+    <stop offset="100%" stop-color="#ff5555"/>
+    
+    </linearGradient>
+  </defs>
+  <svg x="28" y="20" width="100" height="100" viewBox="0 0 30 30" fill="url(#B)" xmlns="http://www.w3.org/2000/svg">
+    
+    <path d="M7 10h2v4H7v-4z"/>
+    <path d="M10 11c0 .552-.895 1-2 1s-2-.448-2-1 .895-1 2-1 2 .448 2 1z"/>
+    <path fill-rule="evenodd" d="M12.5 3a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-3 2a3 3 0 1 1 6 0 3 3 0 0 1-6 0zm-6-2a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-3 2a3 3 0 1 1 6 0 3 3 0 0 1-6 0z"/>
+    <path d="M3 1h10c-.495 3.467-.5 10-5 10S3.495 4.467 3 1zm0 15a1 1 0 0 1 1-1h8a1 1 0 0 1 1 1H3zm2-1a1 1 0 0 1 1-1h4a1 1 0 0 1 1 1H5z"/>
+    <circle cx="8" cy="6" r="4" fill="#f0f6fb" />
+    <text x="6" y="8" font-family="Courier, Monospace" font-size="7" fill="#0d1117">B</text>
+  
+  </svg>
+  
+          <text x="50%" y="18" text-anchor="middle" font-family="Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji" font-weight="bold" font-size="13" fill="#c9d1d9">Repositories</text>
+          <text x="50%" y="85" text-anchor="middle" font-family="Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji" font-weight="bold" font-size="10.5" fill="#8b949e">Middle Repo Creator</text>
+          <text x="50%" y="97" text-anchor="middle" font-family="Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji" font-weight="bold" font-size="10" fill="#8b949e">10pt</text>
+          
+    <style>
+    @keyframes RepositoriesRankAnimation {
+      from {
+        width: 0px;
+      }
+      to {
+        width: 0px;
+      }
+    }
+    #Repositories-rank-progress{
+      animation: RepositoriesRankAnimation 1s forwards ease-in-out;
+    }
+    </style>
+    <rect
+      x="15"
+      y="101"
+      rx="1"
+      width="80"
+      height="3.2"
+      opacity="0.3"
+      fill="#ff79c6"
+    />
+    <rect
+      id="Repositories-rank-progress"
+      x="15"
+      y="101"
+      rx="1"
+      height="3.2"
+      fill="#ff79c6"
+    />
+  
+        </svg>
+        
+        <svg
+          x="375"
           y="0"
           width="115"
           height="115"
@@ -287,7 +367,7 @@ Created by potrace 1.15, written by Peter Selinger 2001-2017
         </svg>
         
         <svg
-          x="375"
+          x="500"
           y="0"
           width="115"
           height="115"
@@ -367,7 +447,7 @@ Created by potrace 1.15, written by Peter Selinger 2001-2017
         </svg>
         
         <svg
-          x="500"
+          x="625"
           y="0"
           width="115"
           height="115"
@@ -437,86 +517,6 @@ Created by potrace 1.15, written by Peter Selinger 2001-2017
     />
     <rect
       id="PullRequest-rank-progress"
-      x="15"
-      y="101"
-      rx="1"
-      height="3.2"
-      fill="#ff79c6"
-    />
-  
-        </svg>
-        
-        <svg
-          x="625"
-          y="0"
-          width="115"
-          height="115"
-          viewBox="0 0 115 115"
-          fill="none"
-          xmlns="http://www.w3.org/2000/svg"
-        >
-          <rect
-            x="0.5"
-            y="0.5"
-            rx="4.5"
-            width="114"
-            height="114"
-            stroke="#e1e4e8"
-            fill="#0d1117"
-            stroke-opacity="1"
-            fill-opacity="1"
-          />
-          
-  
-  
-  <defs>
-    <linearGradient id="C" gradientTransform="rotate(45)">
-    
-      <stop offset="0%" stop-color="#6272a4"/>
-      <stop offset="50%" stop-color="#6272a4"/>
-      <stop offset="100%" stop-color="#6272a4"/>
-  
-    </linearGradient>
-  </defs>
-  <svg x="28" y="20" width="100" height="100" viewBox="0 0 30 30" fill="url(#C)" xmlns="http://www.w3.org/2000/svg">
-    
-    <path d="M7 10h2v4H7v-4z"/>
-    <path d="M10 11c0 .552-.895 1-2 1s-2-.448-2-1 .895-1 2-1 2 .448 2 1z"/>
-    <path fill-rule="evenodd" d="M12.5 3a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-3 2a3 3 0 1 1 6 0 3 3 0 0 1-6 0zm-6-2a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-3 2a3 3 0 1 1 6 0 3 3 0 0 1-6 0z"/>
-    <path d="M3 1h10c-.495 3.467-.5 10-5 10S3.495 4.467 3 1zm0 15a1 1 0 0 1 1-1h8a1 1 0 0 1 1 1H3zm2-1a1 1 0 0 1 1-1h4a1 1 0 0 1 1 1H5z"/>
-    <circle cx="8" cy="6" r="4" fill="#f0f6fb" />
-    <text x="6" y="8" font-family="Courier, Monospace" font-size="7" fill="#0d1117">C</text>
-  
-  </svg>
-  
-          <text x="50%" y="18" text-anchor="middle" font-family="Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji" font-weight="bold" font-size="13" fill="#c9d1d9">Repositories</text>
-          <text x="50%" y="85" text-anchor="middle" font-family="Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji" font-weight="bold" font-size="10.5" fill="#8b949e">First Repository</text>
-          <text x="50%" y="97" text-anchor="middle" font-family="Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji" font-weight="bold" font-size="10" fill="#8b949e">9pt</text>
-          
-    <style>
-    @keyframes RepositoriesRankAnimation {
-      from {
-        width: 0px;
-      }
-      to {
-        width: 71.11111111111111px;
-      }
-    }
-    #Repositories-rank-progress{
-      animation: RepositoriesRankAnimation 1s forwards ease-in-out;
-    }
-    </style>
-    <rect
-      x="15"
-      y="101"
-      rx="1"
-      width="80"
-      height="3.2"
-      opacity="0.3"
-      fill="#ff79c6"
-    />
-    <rect
-      id="Repositories-rank-progress"
       x="15"
       y="101"
       rx="1"
