@@ -330,7 +330,45 @@ A responsive digital platform designed to showcase the school and make its onlin
 </p>
 
   </td>
+<td width="50%" valign="top">
+
+### 📄 Resume-Selector
+
+**Smart Resume Screening & Selection Platform**
+
+`Resume Management`
+
+`Candidate Screening`
+
+`Web Development`
+
+`UI/UX Design`
+
+A web-based project designed to simplify resume screening and organize candidate information through a user-friendly interface.
+
+<p>
+  <a href="YOUR_RESUME_SELECTOR_DEMO_LINK">
+    <img
+      src="https://img.shields.io/badge/Live%20Demo-238636?style=flat-square&logo=githubpages&logoColor=white"
+      alt="Resume-Selector Live Demo"
+    />
+  </a>
+  <a href="YOUR_RESUME_SELECTOR_GITHUB_LINK">
+    <img
+      src="https://img.shields.io/badge/Source%20Code-181717?style=flat-square&logo=github&logoColor=white"
+      alt="Resume-Selector Source Code"
+    />
+  </a>
+</p>
+
+</td>
+
+
+  
 </tr>
+
+
+
 
 </tr>
 
