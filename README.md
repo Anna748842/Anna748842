@@ -16,18 +16,27 @@
 <!-- ==================== PROFILE INFO ==================== -->
 
 <p align="center">
-  <a href="https://github.com/Anna748842">
-    <img src="https://img.shields.io/github/followers/Anna748842?style=flat-square&label=Followers&color=58A6FF"
-         alt="GitHub Followers" />
-  </a>
-  <a href="https://github.com/Anna748842">
-    <img src="https://img.shields.io/github/stars/Anna748842?style=flat-square&label=Stars&color=F7C948"
-         alt="GitHub Stars" />
-  </a>
-  <img src="https://img.shields.io/badge/Profile%20Views-Visit%20My%20Profile-238636?style=flat-square"
-       alt="Profile Views Badge" />
-</p>
 
+  <a href="https://github.com/Anna748842">
+    <img
+      src="https://img.shields.io/github/followers/Anna748842?style=flat-square&label=Followers&color=58A6FF"
+      alt="GitHub Followers"
+    />
+  </a>
+
+  <a href="https://github.com/Anna748842">
+    <img
+      src="https://img.shields.io/github/stars/Anna748842?style=flat-square&label=Stars&color=F7C948"
+      alt="GitHub Stars"
+    />
+  </a>
+
+  <img
+    src="https://komarev.com/ghpvc/?username=Anna748842&style=flat-square&label=Profile%20Views&color=238636"
+    alt="Profile Views"
+  />
+
+</p>
 
 <!-- ===================== TYPING ============================= -->
 
