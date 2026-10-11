@@ -300,6 +300,38 @@ alt="Animated Introduction"
 
 </td>
 
+<tr>
+  <td width="50%" valign="top">
+
+### 🏫 Ravi Mahato Smarak High School
+
+**Modern School Website — Mahuda, Dhanbad, Jharkhand**
+
+`React` · `JavaScript` · `CSS` · `Web Design`
+
+A responsive digital platform designed to showcase the school and make its online presence more accessible.
+
+<p>
+  <a href="https://anna748842.github.io/school_website/">
+    <img
+      src="https://img.shields.io/badge/🌐_Live_Demo-Visit_Website-238636?style=for-the-badge&logo=googlechrome&logoColor=white"
+      alt="School Website Live Demo"
+    />
+  </a>
+</p>
+
+<p>
+  <a href="https://github.com/Anna748842/school_website">
+    <img
+      src="https://img.shields.io/badge/💻_Source_Code-GitHub-181717?style=for-the-badge&logo=github&logoColor=white"
+      alt="School Website Source Code"
+    />
+  </a>
+</p>
+
+  </td>
+</tr>
+
 </tr>
 
 </table>
