@@ -46,7 +46,7 @@ viewBox="0 0 1200 245">
       height="13"
       rx="2"
       fill="#161b22">
-    <title>2025-11-11: 0 contributions</title>
+    <title>2025-11-13: 0 contributions</title>
 </rect>
 
 <rect x="28"
@@ -55,29 +55,11 @@ viewBox="0 0 1200 245">
       height="13"
       rx="2"
       fill="#161b22">
-    <title>2025-11-12: 0 contributions</title>
-</rect>
-
-<rect x="28"
-      y="110"
-      width="13"
-      height="13"
-      rx="2"
-      fill="#161b22">
-    <title>2025-11-13: 0 contributions</title>
-</rect>
-
-<rect x="28"
-      y="126"
-      width="13"
-      height="13"
-      rx="2"
-      fill="#161b22">
     <title>2025-11-14: 0 contributions</title>
 </rect>
 
 <rect x="28"
-      y="142"
+      y="110"
       width="13"
       height="13"
       rx="2"
@@ -3323,6 +3305,24 @@ viewBox="0 0 1200 245">
       rx="2"
       fill="#161b22">
     <title>2026-11-10: 0 contributions</title>
+</rect>
+
+<rect x="860"
+      y="126"
+      width="13"
+      height="13"
+      rx="2"
+      fill="#161b22">
+    <title>2026-11-11: 0 contributions</title>
+</rect>
+
+<rect x="860"
+      y="142"
+      width="13"
+      height="13"
+      rx="2"
+      fill="#161b22">
+    <title>2026-11-12: 0 contributions</title>
 </rect>
 
 <rect x="28"
